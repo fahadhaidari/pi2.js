@@ -10,7 +10,9 @@ In the index.html file, comment/uncomment the desired example to run it. You can
 
 Simply, include pi2.js in your main html file.
 
+
 ```<script src="pi2.js"></script>```
+
 
 Then in your main `.js` file
 
