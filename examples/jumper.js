@@ -2,7 +2,6 @@ const jumpSpeed = 5;
 let pointHistory = { x: 0, y: 0 };
 let isRight = false;
 let isLeft = false;
-let isJump = false;
 let score = 0;
 let time = 20;
 
@@ -48,14 +47,6 @@ const infoText2 = pi2.draw.text({
   text: 'Collect the small red circle',
   size: 14,
   y: scoreText.y * 3,
-  color: '#333333',
-  family: 'Courier New'
-});
-
-const infoText3 = pi2.draw.text({ 
-  text: 'This is not a complete game, just the basic structure of a game',
-  size: 14,
-  y: scoreText.y * 4,
   color: '#333333',
   family: 'Courier New'
 });
@@ -152,7 +143,6 @@ pi2.repeat(i => {
 
 pi2.onKeyDown = function (key) {
   if (key === 32) {
-    isJump = true;
     jumper.vel.y = -jumpSpeed;
   }
   if (key === 37) {

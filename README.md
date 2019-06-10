@@ -172,7 +172,7 @@ pi2.repeat(index => {
 
 ## Random info:
 
-1. You can access the props of an object directly after creation.
+1. You can access the props of an object directly after you create that object.
 
     Some examples: 
 

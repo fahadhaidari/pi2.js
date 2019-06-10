@@ -30,7 +30,7 @@ pi2.setup = function () {
         id: i + 1,
         x: pi2.util.randomInt(20, pi2.SCREEN.width - 40),
         y: pi2.util.randomInt(20, pi2.SCREEN.height - 40),
-        vel: new pi2.Vector(pi2.util.randomDouble(-2, 2), pi2.util.randomDouble(-2, 2)),
+        vel: new pi2.Vector(pi2.util.randomDouble(-1, 1), pi2.util.randomDouble(-1, 1)),
         radius: pi2.util.randomInt(5, 40),
         color: pi2.util.randomColor(),
       });
